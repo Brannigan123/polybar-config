@@ -2,13 +2,13 @@
 My polybar configuration repo
 
 ## Desktop
-![2023_05_15_21:21:28:085399618_EAT](https://github.com/Brannigan123/polybar-config/assets/41282933/802401de-058c-4f5e-8bf0-dae09e07d908)
+![2023_05_15_21:21:28:085399618_EAT](https://github.com/Brannigan123/polybar-config/assets/41282933/575a808e-f7f1-41b3-af2a-058f4acd53e9)
 
 ## Bottom Bar
-https://github.com/Brannigan123/polybar-config/assets/41282933/42be925e-7ed9-4293-8306-c5f20a3bfd45
+https://github.com/Brannigan123/polybar-config/assets/41282933/9fe20f07-9fe4-484d-886b-bcbb36fc42bc
 
 ## Top Bar
-https://github.com/Brannigan123/polybar-config/assets/41282933/3ca6d3de-1e8e-4916-8a00-7445a2bd45b8
+https://github.com/Brannigan123/polybar-config/assets/41282933/4f95e9f9-34db-4147-be92-4e014ec2c3cc
 
 ## Dependencies
 1. ![playerctl](https://github.com/altdesktop/playerctl) - used to control media players
