@@ -13,17 +13,17 @@ do
 done
 
 # make sure to clean pipe
-pipe="/tmp/cava.fifo"
+pipe="$HOME/.cache/cava.fifo"
 i=1
 while [ -p $pipe ]; do
-   pipe="/tmp/cava_$i.fifo"
+   pipe="$HOME/.cache/cava_$i.fifo"
    i=${i+1}
 done
 
 mkfifo $pipe
 
 # write cava config
-config_file="/tmp/polybar_cava_config"
+config_file="$HOME/.cache/polybar_cava_config"
 echo "
 [general]
 bars = 10
