@@ -17,7 +17,7 @@ pipe="$HOME/.cache/cava.fifo"
 i=1
 while [ -p $pipe ]; do
    pipe="$HOME/.cache/cava_$i.fifo"
-   i=${i+1}
+   i=$((i+1))
 done
 
 mkfifo $pipe
