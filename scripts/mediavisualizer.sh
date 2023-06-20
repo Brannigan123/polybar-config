@@ -12,18 +12,23 @@ do
     i=$((i=i+1))
 done
 
+base_directory="$HOME/.cache/polybar_cava"
+if [[ ! -d "$base_directory" ]]; then
+  mkdir -p "$base_directory"
+fi
+
 #create unique pipe
-pipe="$HOME/.cache/cava.fifo"
+pipe="$base_directory/cava.fifo"
 i=1
 while [ -p $pipe ]; do
-   pipe="$HOME/.cache/cava_$i.fifo"
+   pipe="$base_directory/cava_$i.fifo"
    i=$((i+1))
 done
 
 mkfifo $pipe
 
 # write cava config
-config_file="$HOME/.cache/polybar_cava_config"
+config_file="$base_directory/polybar_cava_config"
 echo "
 [general]
 bars = 10
