@@ -12,7 +12,7 @@ do
     i=$((i=i+1))
 done
 
-# make sure to clean pipe
+#create unique pipe
 pipe="$HOME/.cache/cava.fifo"
 i=1
 while [ -p $pipe ]; do
